@@ -55,13 +55,13 @@
 		9FAB14821161A51400A2F36A /* PrefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB14811161A51400A2F36A /* PrefsController.m */; };
 		9FB4DE0711C05C0E007B3DDE /* MetaEditor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9FB4DE0611C05C0E007B3DDE /* MetaEditor.mm */; };
 		9FB4DE0811C05C0E007B3DDE /* MetaEditor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9FB4DE0611C05C0E007B3DDE /* MetaEditor.mm */; };
-		9FB4DE3A11C0610F007B3DDE /* libmp4v2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FB4DE3911C0610F007B3DDE /* libmp4v2.a */; };
-		9FB4DE3B11C0610F007B3DDE /* libmp4v2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FB4DE3911C0610F007B3DDE /* libmp4v2.a */; };
 		9FBCBF46102A6A2C0067AE9F /* ConsoleDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBCBF45102A6A2C0067AE9F /* ConsoleDelegate.m */; };
 		9FD5D3651CEA5146008B74AF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD5D3641CEA5146008B74AF /* QuartzCore.framework */; };
 		9FD5D3681CEA549E008B74AF /* QueueOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5D3671CEA549E008B74AF /* QueueOverlayView.m */; };
 		9FFED9901128C1AD00C3AFE6 /* NSOutlineView_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFED98F1128C1AD00C3AFE6 /* NSOutlineView_Extension.m */; };
 		9FFF519F12DC0D7000E3A54F /* audiobook.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9FFF519E12DC0D7000E3A54F /* audiobook.icns */; };
+		A78CA33F20D099EC00DA6021 /* libmp4v2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A78CA33E20D099EC00DA6021 /* libmp4v2.a */; };
+		A78CA34020D099EC00DA6021 /* libmp4v2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A78CA33E20D099EC00DA6021 /* libmp4v2.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -167,7 +167,6 @@
 		9FAD311A173072A70067DF2F /* AudioBookBinder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AudioBookBinder.entitlements; sourceTree = "<group>"; };
 		9FB4DE0511C05C0E007B3DDE /* MetaEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetaEditor.h; sourceTree = "<group>"; };
 		9FB4DE0611C05C0E007B3DDE /* MetaEditor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MetaEditor.mm; sourceTree = "<group>"; };
-		9FB4DE3911C0610F007B3DDE /* libmp4v2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmp4v2.a; path = "$(HOME)/opt/lib/libmp4v2.a"; sourceTree = "<absolute>"; };
 		9FB964F21CD81F9A0028268F /* ConfigNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigNames.h; sourceTree = "<group>"; };
 		9FBCBF44102A6A2C0067AE9F /* ConsoleDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleDelegate.h; sourceTree = "<group>"; };
 		9FBCBF45102A6A2C0067AE9F /* ConsoleDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleDelegate.m; sourceTree = "<group>"; };
@@ -177,6 +176,7 @@
 		9FFED98E1128C1AD00C3AFE6 /* NSOutlineView_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOutlineView_Extension.h; sourceTree = "<group>"; };
 		9FFED98F1128C1AD00C3AFE6 /* NSOutlineView_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOutlineView_Extension.m; sourceTree = "<group>"; };
 		9FFF519E12DC0D7000E3A54F /* audiobook.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = audiobook.icns; sourceTree = "<group>"; };
+		A78CA33E20D099EC00DA6021 /* libmp4v2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp4v2.a; sourceTree = "<group>"; };
 		C6859EA3029092ED04C91782 /* AudioBookBinder.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AudioBookBinder.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -189,7 +189,7 @@
 				9F02CE19101EABCD00AE315D /* AudioToolbox.framework in Frameworks */,
 				9F02CE4C101EBB9600AE315D /* CoreServices.framework in Frameworks */,
 				9F02D007102161FD00AE315D /* QTKit.framework in Frameworks */,
-				9FB4DE3B11C0610F007B3DDE /* libmp4v2.a in Frameworks */,
+				A78CA33F20D099EC00DA6021 /* libmp4v2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,11 +198,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FD5D3651CEA5146008B74AF /* QuartzCore.framework in Frameworks */,
+				A78CA34020D099EC00DA6021 /* libmp4v2.a in Frameworks */,
 				9F6FA3A011191A4D0047728F /* Foundation.framework in Frameworks */,
 				9F6FA3A111191A4D0047728F /* AudioToolbox.framework in Frameworks */,
 				9F6FA3A211191A4D0047728F /* CoreServices.framework in Frameworks */,
 				9F6FA3A311191A4D0047728F /* QTKit.framework in Frameworks */,
-				9FB4DE3A11C0610F007B3DDE /* libmp4v2.a in Frameworks */,
 				9F7829D3129F8C6000763A5B /* AppKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +283,7 @@
 		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				9FB4DE3911C0610F007B3DDE /* libmp4v2.a */,
+				A78CA33E20D099EC00DA6021 /* libmp4v2.a */,
 				9F02D006102161FD00AE315D /* QTKit.framework */,
 				9F02CE4B101EBB9600AE315D /* CoreServices.framework */,
 				9F02CE18101EABCD00AE315D /* AudioToolbox.framework */,
@@ -561,6 +561,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(HOME)/opt/lib",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = abbinder;
 				SDKROOT = macosx;
@@ -579,6 +580,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(HOME)/opt/lib",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = abbinder;
 				SDKROOT = macosx;
@@ -650,6 +652,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(HOME)/opt/lib",
+					"$(PROJECT_DIR)",
 				);
 				OTHER_CODE_SIGN_FLAGS = "--deep";
 				OTHER_LDFLAGS = (
@@ -692,6 +695,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(HOME)/opt/lib",
+					"$(PROJECT_DIR)",
 				);
 				OTHER_CODE_SIGN_FLAGS = "--deep";
 				OTHER_LDFLAGS = (
@@ -744,6 +748,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(HOME)/opt/lib",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = abbinder;
 				SDKROOT = macosx;
@@ -774,6 +779,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(HOME)/opt/lib",
+					"$(PROJECT_DIR)",
 				);
 				OTHER_CODE_SIGN_FLAGS = "--deep";
 				OTHER_LDFLAGS = (

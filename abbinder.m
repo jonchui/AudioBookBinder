@@ -27,7 +27,7 @@
 
 #import <Foundation/Foundation.h>
 #import <Foundation/NSDebug.h> 
-#import <QTKit/QTKit.h>
+//#import <QTKit/QTKit.h>
 #include <getopt.h>
 
 #import "AudioBinder.h"
